@@ -1,6 +1,6 @@
 {
   "name": "@kseniya333/card",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Card component for AI Component Library",
   "main": "./dist/card.umd.js",
   "module": "./dist/card.es.js",
