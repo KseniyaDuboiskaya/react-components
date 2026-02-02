@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@kseniya333/button": ["../../packages/button/src/index.ts"],
+      "@kseniya333/button/*": ["../../packages/button/src/*"],
+      "@kseniya333/card": ["../../packages/card/src/index.ts"],
+      "@kseniya333/card/*": ["../../packages/card/src/*"]
+    }
+  },
+  "include": ["src", ".storybook"],
+  "exclude": ["node_modules"]
+}

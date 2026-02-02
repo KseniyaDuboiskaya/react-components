@@ -1,0 +1,51 @@
+.ai-card {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.ai-card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.ai-card__header {
+  padding: 20px 24px;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1f2937;
+  background-color: #f9fafb;
+}
+
+.ai-card__content {
+  padding: 24px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.ai-card__footer {
+  padding: 16px 24px;
+  border-top: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  font-size: 14px;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ai-card__footer-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.ai-card__actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}

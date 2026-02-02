@@ -1,0 +1,29 @@
+{
+  "name": "ai-component-library",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.12.2",
+  "description": "A production-ready React component library monorepo",
+  "scripts": {
+    "build": "pnpm -r --filter='./packages/*' build",
+    "dev": "pnpm -r --parallel --filter='./packages/*' dev",
+    "storybook": "pnpm --filter storybook dev",
+    "build:storybook": "pnpm --filter storybook build",
+    "clean": "pnpm -r exec rm -rf dist node_modules",
+    "typecheck": "pnpm -r typecheck",
+    "changeset": "changeset",
+    "version": "changeset version && pnpm install",
+    "release": "pnpm build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.8",
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

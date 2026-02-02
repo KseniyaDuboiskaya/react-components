@@ -1,0 +1,47 @@
+.ai-button {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.ai-button--primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.ai-button--primary:hover:not(:disabled) {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.ai-button--primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.ai-button--secondary {
+  background-color: #f3f4f6;
+  color: #1f2937;
+  border: 2px solid #d1d5db;
+}
+
+.ai-button--secondary:hover:not(:disabled) {
+  background-color: #e5e7eb;
+  border-color: #9ca3af;
+  transform: translateY(-1px);
+}
+
+.ai-button--secondary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.ai-button--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
