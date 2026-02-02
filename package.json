@@ -12,7 +12,7 @@
     "clean": "pnpm -r exec rm -rf dist node_modules",
     "typecheck": "pnpm -r typecheck",
     "changeset": "changeset",
-    "version": "changeset version && pnpm install",
+    "version": "changeset version",
     "release": "pnpm build && changeset publish"
   },
   "devDependencies": {

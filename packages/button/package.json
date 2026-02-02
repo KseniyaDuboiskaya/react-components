@@ -1,6 +1,6 @@
 {
   "name": "@kseniya333/button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Button component for AI Component Library",
   "main": "./dist/button.umd.js",
   "module": "./dist/button.es.js",
